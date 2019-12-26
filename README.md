@@ -2,7 +2,7 @@
 
 ## Installation
 
-If you have not installed Fastlane before, please [install fastlane](https://docs.fastlane.tools/) first.
+If you have not installed Fastlane before, please [install fastlane](https://docs.fastlane.tools/getting-started/ios/setup/) first.
 
 Create a `fastlane` folder in the root folder of your project and create a `Fastfile` file in this folder, simply add the following line to your Fastfile:
 
