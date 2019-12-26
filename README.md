@@ -7,7 +7,7 @@ If you have not installed Fastlane before, please [install fastlane](https://doc
 Create a `fastlane` folder in the root folder of your project and create a `Fastfile` file in this folder, simply add the following line to your Fastfile:
 
 ```ruby
-import_from_git(url: 'https://github.com/ripperhe/fastlane-files', branch: 'master')
+import_from_git(url: 'https://github.com/Coder-Star/fastlane-files', branch: 'master')
 ```
 
 ## Usage
@@ -41,10 +41,6 @@ If you want to add commit information, you can add this parameter:
 ```bash
 $ fastlane release_pod project:"project name" version:"new version" desc:"commit information"
 ```
-
-## Author
-
-ripperhe, ripperhe@qq.com
 
 ## License
 
