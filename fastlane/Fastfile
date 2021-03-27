@@ -26,7 +26,7 @@ lane :release_pod do |options|
   rescue
     error_message = "#{$!}"
     UI.message("⚠️ commit error:#{error_message}")
-    unless error_message.include?("nothing to commit, working directory clean")
+    unless error_message.include?("nothing to commit, working tree clean")
       exit
     end
     UI.message("The local code has committed, skip the commit step!")
